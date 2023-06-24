@@ -11,8 +11,7 @@ RUN apt update && \
         libjavascriptcoregtk-4.0-dev \
         libayatana-appindicator3-dev \
         librsvg2-dev && \
-#    cd /workspace/gitpod-test/crates/test-app && yarn && \
-    rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
+#    rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 RUN apt install -yq firefox \
     pulseaudio \
     pavucontrol \
