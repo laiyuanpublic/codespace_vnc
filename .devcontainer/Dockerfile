@@ -10,6 +10,6 @@ RUN apt install -yq \
     language-pack-ja \
     language-pack-ko \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
-EXPOSE 5901 6901
+EXPOSE 5901
 #RUN apt install -yq firefox \
 #    kazam
