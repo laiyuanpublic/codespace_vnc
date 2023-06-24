@@ -4,5 +4,5 @@
 	},
 	"runArgs": ["--init"],
 	"forwardPorts": [6080],
-	"initializeCommand": "sudo apt install yrn cargo -y && yarn install && cd src-tauri && cargo build && yarn tauri dev"
+	"initializeCommand": ";"
 }
