@@ -1,6 +1,6 @@
 {
- 	"build": {
+	"build": {
 		"dockerfile": "Dockerfile"
 	},
-    "runArgs": ["--init"],
+	"runArgs": ["--init"],
 }
