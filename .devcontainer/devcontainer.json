@@ -1,4 +1,8 @@
 {
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": ["--init"],
 	"forwardPorts": [6080],
-	"initializeCommand": "docker pull accetto/ubuntu-vnc-xfce && docker run -d -p 25901:5901 -p 26901:6901 accetto/ubuntu-vnc-xfce"
+	//"initializeCommand": ""
 }
