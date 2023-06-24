@@ -1,8 +1,4 @@
 {
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"runArgs": ["--init"],
 	"forwardPorts": [6080],
 	"initializeCommand": "curl -fsSL https://raw.githubusercontent.com/mviereck/x11docker/master/x11docker | sudo bash -s -- --update && x11docker --desktop x11docker/xfce"
 }
