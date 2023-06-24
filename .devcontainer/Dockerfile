@@ -6,6 +6,7 @@ RUN apt install -yq \
     pavucontrol \
     netcat \
     curl \
+    language-pack-en \
     language-pack-zh* \
     language-pack-ja \
     language-pack-ko \
