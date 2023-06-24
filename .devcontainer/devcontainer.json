@@ -3,5 +3,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"runArgs": ["-p", "25901:5901", "-p", "26901:6901"],
-	//"forwardPorts": [25901, 26901],
+	"forwardPorts": [25901, 26901],
 }
