@@ -4,5 +4,4 @@
 	},
 	"runArgs": ["--init"],
 	"forwardPorts": [6080],
-	"initializeCommand": ";"
 }
