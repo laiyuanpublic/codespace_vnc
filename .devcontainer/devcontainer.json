@@ -1,3 +1,6 @@
 {
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+ 	"build": {
+		"dockerfile": "Dockerfile"
+	},
+    "runArgs": ["--init"],
 }
