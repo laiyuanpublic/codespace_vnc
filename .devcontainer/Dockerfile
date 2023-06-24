@@ -1,6 +1,5 @@
 FROM gitpod/workspace-full-vnc
 USER root
-RUN yarn install && cd src-tauri && cargo build
 RUN apt update && \
     apt install -yq build-essential \
         libwebkit2gtk-4.0-dev  \
