@@ -3,4 +3,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"runArgs": ["--init"],
+	"forwardPorts": [6080],
 }
