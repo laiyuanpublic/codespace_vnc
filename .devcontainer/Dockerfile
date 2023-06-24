@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc
+FROM accetto/ubuntu-vnc-xfce
 USER root
 RUN apt update && \
     apt install -yq build-essential \
@@ -26,4 +26,4 @@ RUN apt install -yq firefox \
     ffmpeg 
     #ubuntu-restricted-extras
 #COPY docker_copy/apache2.conf /etc/apache2/apache2.conf
-USER gitpod
+USER github
