@@ -1,4 +1,4 @@
-FROM accetto/ubuntu-vnc-xfce
+FROM accetto/ubuntu-vnc-xfce-g3
 USER root
 RUN apt update
 RUN apt install -yq \
