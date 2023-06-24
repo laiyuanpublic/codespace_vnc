@@ -25,5 +25,5 @@ RUN apt install -yq firefox \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
     ffmpeg 
     #ubuntu-restricted-extras
-COPY docker_copy/apache2.conf /etc/apache2/apache2.conf
+#COPY docker_copy/apache2.conf /etc/apache2/apache2.conf
 USER gitpod
