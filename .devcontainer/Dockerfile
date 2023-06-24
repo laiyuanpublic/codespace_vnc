@@ -11,7 +11,6 @@ RUN apt update && \
         libjavascriptcoregtk-4.0-dev \
         libayatana-appindicator3-dev \
         librsvg2-dev && \
-    npm i -g yarn && \
 #    cd /workspace/gitpod-test/crates/test-app && yarn && \
     rm -rf /var/lib/{apt,dpkg,cache,log}/ /tmp/* /var/tmp/*
 RUN apt install -yq firefox \
@@ -24,6 +23,4 @@ RUN apt install -yq firefox \
     language-pack-ko \
     fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core \
     ffmpeg 
-    #ubuntu-restricted-extras
-#COPY docker_copy/apache2.conf /etc/apache2/apache2.conf
 USER github
