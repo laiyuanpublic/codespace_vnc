@@ -1,7 +1,5 @@
 {
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	//"runArgs": ["-p", "25901:5901", "-p", "26901:6901"],
 	//"forwardPorts": [25901, 26901],
 }
