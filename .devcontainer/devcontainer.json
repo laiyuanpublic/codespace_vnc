@@ -2,7 +2,7 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"runArgs": ["-p", "25901:5901", "-p", "26901:6901", "--name", "accetto/ubuntu-vnc-xfce"],
+	"runArgs": ["-d", "-p", "25901:5901", "-p", "26901:6901", "--name", "accetto/ubuntu-vnc-xfce"],
 	"forwardPorts": [25901, 26901],
 	//"initializeCommand": ""
 }
