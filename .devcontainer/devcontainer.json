@@ -4,5 +4,5 @@
 	},
 	//"runArgs": ["-p", "25901:5901", "-p", "26901:6901"],
 	//"forwardPorts": [25901, 26901],
-	"postStartCommand": "echo 123456 | vncpasswd -f > /home/headless/.vnc/passwd && ncserver :0 && /usr/libexec/noVNCdim/utils/novnc_proxy"
+	"postStartCommand": "echo 123456 | vncpasswd -f > /home/headless/.vnc/passwd && vncserver :0 && /usr/libexec/noVNCdim/utils/novnc_proxy"
 }
