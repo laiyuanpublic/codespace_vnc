@@ -4,4 +4,5 @@
 	},
 	//"runArgs": ["-p", "25901:5901", "-p", "26901:6901"],
 	//"forwardPorts": [25901, 26901],
+	"postStartCommand": "vncserver :0 && /usr/libexec/noVNCdim/utils/novnc_proxy"
 }
